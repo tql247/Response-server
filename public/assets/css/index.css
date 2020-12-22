@@ -1,0 +1,30 @@
+.html-content {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    max-width: 100vh;
+    height: 90vh;
+}
+
+.f-Mulish {
+    font-family: 'Mulish';
+}
+
+.f-JetBrains {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+th {
+    text-align: left;
+}
+
+.f-s-big {
+    font-size: large;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}

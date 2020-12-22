@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>
+        Recording status
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busmap</title>
+    <link rel="icon" type="image/png" href="assets/images/icon.webp" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="html-content">
+        <div class="container">
+            <h1 class="f-Mulish">Recording status</h1>
+            <br>
+            <table style="width:100%" class="f-s-big f-JetBrains">
+                <thead>
+                    <tr>
+                        <th>Recorder name</th>
+                        <th>Status</th>
+                        <th>Lastest response</th>
+                    </tr>
+                </thead>
+                <tbody id="list-rec">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="assets/js/client.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
